@@ -10,7 +10,7 @@ function App() {
   let calcBmi =(e) =>{
     e.preventDefault();
     if(weight ===0 || height === 0){
-      alert("please enter a vald weight and height");
+      alert("please enter a valid weight and height");
     }
     else{
       let bmi = (weight / (height * height)*703);
